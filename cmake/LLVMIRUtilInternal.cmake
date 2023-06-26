@@ -21,6 +21,8 @@ endmacro()
 # internal implementation detail macros/functions
 
 macro(llvmir_setup)
+  set(LLVM_IR_UTILS TRUE)
+
   set(LLVMIR_DIR "llvm-ir")
 
   set(LLVMIR_COMPILER "")
